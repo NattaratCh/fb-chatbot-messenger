@@ -1,0 +1,26 @@
+{
+  "name": "fb-chatbot-messenger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NattaratCh/fb-chatbot-messenger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NattaratCh/fb-chatbot-messenger/issues"
+  },
+  "homepage": "https://github.com/NattaratCh/fb-chatbot-messenger#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.4",
+    "request": "^2.81.0"
+  }
+}
