@@ -35,7 +35,9 @@ app.post("/webhook", function (req, res) {
       entry.messaging.forEach(function(event) {
         if (event.postback) {
           processPostback(event);
-        }
+        } else if (event.message) {
+			sendMessage(event.sender.id, {text: event.message.text});
+		}
       });
     });
 
